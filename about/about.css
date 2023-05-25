@@ -26,3 +26,46 @@
   width: 60%;
   min-width: 500px;
 }
+
+.our-team {
+  width: 95%;
+  margin: 2rem auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-team h3 {
+  font-size: 3rem;
+}
+
+.our-team p {
+  font-size: 1.5rem;
+  width: 65%;
+}
+
+.teams {
+  width: 90%;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.teams .team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.teams .team .circle {
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px black solid;
+}

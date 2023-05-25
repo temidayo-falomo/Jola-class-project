@@ -1,0 +1,43 @@
+.main {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 5rem auto;
+}
+form {
+  width: 40%;
+  gap: 2rem;
+}
+
+form input {
+  padding: 15px;
+  border: 1px gainsboro solid;
+  border-radius: 10px;
+}
+
+button {
+  align-self: center;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+span {
+  align-self: center;
+  text-align: center;
+}
+
+.img {
+  width: 600px;
+}
+
+.footer {
+  min-height: 50px;
+  background-color: #012443;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

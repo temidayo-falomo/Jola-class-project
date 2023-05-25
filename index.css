@@ -1,0 +1,128 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+}
+
+.hero .col {
+  gap: 1rem;
+  width: 50%;
+}
+
+.hero .col h2 {
+  font-size: 5rem;
+  font-weight: 500;
+  width: 80%;
+}
+
+.hero .col span {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.hero .col button {
+  width: 250px;
+  border: 4px #000 solid;
+  color: #000;
+  border-radius: 10px;
+  padding: 15px 20px;
+  background-color: transparent;
+  font-size: 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.arrivals {
+  padding: 20px;
+  font-size: 2.5rem;
+}
+
+.items {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.items .item {
+  gap: 0.5rem;
+}
+
+.items .item .img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.items .item .ratings {
+  width: 80px;
+}
+
+.banner {
+  width: 95%;
+  background-color: #012443;
+  color: #fff;
+  min-height: 500px;
+  margin: 2rem auto;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.banner .row {
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner .banner-top {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.banner .row .img {
+  background-color: black;
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner .row .col {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.banner .row .col h2 {
+  font-size: 3rem;
+}
+
+.banner .row .col button {
+  width: 250px;
+  border: 4px #fff solid;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: transparent;
+  font-size: 2rem;
+  cursor: pointer;
+  align-self: center;
+}

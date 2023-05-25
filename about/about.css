@@ -1,0 +1,28 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+  text-align: center;
+}
+
+.hero .col {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.hero .col h2 {
+  font-size: 5rem;
+}
+
+.hero .col p {
+  font-size: 2rem;
+  width: 60%;
+  min-width: 500px;
+}

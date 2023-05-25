@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Alegreya", serif;
+}
+
+/* UTILS START */
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+/*UTILS END*/
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #012443;
+  min-height: 10vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+nav .left,
+.right {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+nav h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.features {
+  width: 95%;
+  margin: 4rem auto;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.features .feature {
+  align-items: center;
+}
+
+.feature .feature .tiny-img {
+  width: 100px;
+}
+
+.features .feature p {
+  width: 60%;
+  min-width: 200px;
+}
+
+.features .feature .icon {
+  font-size: 3rem;
+}
+footer {
+  width: 100%;
+  background-color: #041728;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding-top: 5rem;
+}
+
+footer .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer h2 {
+  font-size: 3rem;
+}
+
+footer .row .nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin: auto;
+  justify-content: space-between;
+}
+
+footer ul li a {
+  color: #fff;
+}
+
+.sm {
+  width: 100%;
+}
+
+.sm ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 300px;
+  align-self: center;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.sm ul li {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: 2px #fff solid;
+}
+
+footer .border {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+
+footer .btm {
+  text-align: center;
+  width: 100%;
+  display: grid;
+  place-content: center;
+  padding-bottom: 2rem;
+}

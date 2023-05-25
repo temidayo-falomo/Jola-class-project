@@ -1,0 +1,94 @@
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+  text-align: center;
+}
+
+.hero .col {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.hero .col h2 {
+  font-size: 5rem;
+}
+
+.hero .col p {
+  font-size: 2rem;
+  width: 60%;
+  min-width: 500px;
+}
+
+.contact-row {
+  width: 95%;
+  margin: 4rem auto;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.contact-row .col h3 {
+  font-size: 2.5rem;
+}
+
+.contact-row .col p {
+  width: 500px;
+}
+
+.contact-row form {
+  width: 50%;
+}
+
+.contact-row form input {
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px #012443 solid;
+  font-size: 1.3rem;
+}
+
+.contact-row form button {
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.contact-row form textarea {
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px #012443 solid;
+  font-size: 1.3rem;
+}
+
+.business-info {
+  padding: 2rem;
+  background-color: #012443;
+  margin-bottom: 2rem;
+  justify-content: space-evenly;
+  gap: 2rem;
+  align-items: center;
+  min-height: 400px;
+}
+
+.business-info .box {
+  text-align: center;
+  min-width: 300px;
+  min-height: 200px;
+  border: 2px #fff solid;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.business-info .box h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
